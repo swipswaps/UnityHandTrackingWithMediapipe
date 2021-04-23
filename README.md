@@ -34,7 +34,7 @@ A built version of apk is included in release. The source code of the apk is ava
 ## Customization
 To apply hand tracking on your own avatar, follow the below steps:
 
-1. Setup `Animtaion Rigging` on the model:
+1. Setup `Animation Rigging` on the model:
    - Add Prefab `HandLandmarkAndRigs` as child of the model. Add component `Rig Builder` to the model. In the `Rig Layers` of `Rig Builder`, add the four rigs located under `HandLandmarkAndRigs/Rigs` (`LeftHandRig`, `LeftFingerRig`, `RightHandRig`, `RightFingerRig`).
    - In the four Hand Rigs, reassign the `Root` and `Tip` bones based on your model armature. Refer to the sample scene for details.
    - For each of the Hand Rigs, align their transform with the `Tip` transform. To do so, select that object and hold control select object assign in `Tip`. Then, navigate to menu: `Animation Rigging` -> `Align Transform`
